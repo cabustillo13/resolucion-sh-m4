@@ -11,6 +11,8 @@ Para la instalación de dependencias:
 pip3 install -r requirements.txt
 ```
 
+Recordar definir las credenciales de OpenAI API y Langfuse.
+
 ## 1) Casos de Uso
 
 ### Caso 1: Contrato de Licencia de Software
@@ -93,3 +95,9 @@ Output:
   "summary_of_the_change": "En la versión enmendada del contrato, se realizaron las siguientes modificaciones: \n\n1. **Sección 3: Precio** - La tarifa mensual que el Cliente debe pagar por el servicio aumentó de USD 1.200 a USD 1.250.\n\n2. **Sección 4: Disponibilidad del Servicio** - El porcentaje de disponibilidad garantizada del servicio se incrementó de 99,5% a 99,9%.\n\n3. **Sección 5: Soporte** - Se añadió un nuevo método de soporte al cliente, pasando de solo correo electrónico a incluir también un sistema de tickets en línea."
 }
 ```
+
+## 2) Trazabilidad
+
+Implementación final en Langfuse
+
+![Langfuse Image](docs/implementacion_langfuse.PNG)
